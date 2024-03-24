@@ -16,7 +16,7 @@ body {
     margin: 0; /* Eliminar el margen exterior del cuerpo */
     width: 100%; /* Ancho completo del cuerpo */
     height: 100%; /* Altura completa del cuerpo */
-    padding-top: 4%; /* Espaciado interno superior del cuerpo */
+    
 }
 
 /* Estilos para el navbar */
