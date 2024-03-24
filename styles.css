@@ -13,7 +13,10 @@
 body {
     font-family: MiFuente, Arial, sans-serif; /* Utiliza tu fuente personalizada como primera opción */
     background-color: #F3F5FB; /* Color de fondo del cuerpo del documento */
-    padding-top: 70px; /* Espaciado interno en la parte superior del cuerpo */
+    margin: 0; /* Eliminar el margen exterior del cuerpo */
+    width: 100%; /* Ancho completo del cuerpo */
+    height: 100%; /* Altura completa del cuerpo */
+    padding-top: 4%; /* Espaciado interno superior del cuerpo */
 }
 
 /* Estilos para el navbar */
@@ -25,9 +28,7 @@ header {
     position: fixed; /* Fijar el encabezado en la parte superior de la ventana */
     top: 0; /* Alinear el encabezado en la parte superior */
     width: 100%; /* Ancho completo del encabezado */
-   
-    
-
+    z-index: 1000; /* Capa superior del encabezado */
 }
 
 /* Estilos para la sección de productos */
